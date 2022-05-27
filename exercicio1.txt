@@ -1,0 +1,10 @@
+Exercício 1: Endereço"
+// Lógica de Programação
+
+var endereco: caractere
+
+Inicio
+    escreva("Digite seu endereço: ")
+    leia(endereco)
+    escreva("Seu endereço é na rua: " + endereco)
+Fimalgoritmo
