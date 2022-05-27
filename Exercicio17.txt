@@ -1,0 +1,36 @@
+Exercício 17: While
+//Lógica de Programação
+
+var num1: inteiro
+var num2: inteiro
+var op: inteiro
+var resultado: inteiro
+
+Inicio
+    escreval("Digite o primeiro número: ")
+    leia(num1)
+    escreval("Digite o segundo número: ")
+    leia(num2)
+    
+    enquanto (op != 5) faca
+        escreval("Qual opção você deseja: (1)somar, (2)subtrair, (3)dividir, (4)multiplicar, (5)sair")
+        leia(op)
+        
+        escolha op
+            caso 1
+            resultado := num1 + num2
+
+            caso 2
+            resultado := num1 - num2
+
+            caso 3
+            resultado := num1 / num2
+
+            caso 4
+            resultado := num1 * num2
+            
+            outrocaso
+            escreva("Opção inválida!")
+    fimenquanto
+    escreval(resultado)
+Fimalgoritmo

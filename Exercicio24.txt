@@ -1,0 +1,26 @@
+Exercício 24: Estrutura de Dados
+//Lógica de Programação
+
+var clientes: vetor[1..5] de caractere
+var cpf: vetor[1..5] de inteiro
+var rg: vetor[1..5] de inteiro
+var endereco: vetor[1..5] de caractere
+var telefone: vetor[1..5] de inteiro
+
+Inicio
+    para i <- 1 ate 5 faca
+        escreva("Digite o nome do ", i, "º usuário: ")
+        leia(clientes[i])
+        escreva("Digite do CPF do ", i, "º usuário: ")
+        leia(cpf[i])
+        escreva("Digite o RG do ", i, "º usuário: ")
+        leia(rg[i])
+        escreva("Digite o endereço do ", i, "º usuário: ")
+        leia(endereco[i])
+        escreva("Digite o telefone do ", i, "º usuário: ")
+        leia(telefone[i])
+    fimpara
+    para i <- 1 ate 5 faca
+        escreval(clientes[i], " CPF: ", cpf[i], "RG: ", rg[i], "endereço: ", endereco[i], "telefone: ", telefone[i])
+    fimpara
+Fimalgoritmo

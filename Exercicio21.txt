@@ -1,0 +1,15 @@
+Exercício 21: Do/While
+//Lógica de Programação
+
+var saldo: real
+var saque: real
+
+Inicio
+    saldo <- 1000
+    saque <- 150
+    repita
+        saldo = saldo - saque
+    ate (saldo >= 0)
+    fimenquanto
+    escreva("Saque realizado enquanto houver saldo positivo")
+Fimalgoritmo

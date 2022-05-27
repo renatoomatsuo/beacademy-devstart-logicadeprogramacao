@@ -1,0 +1,23 @@
+Exercício 19: Do/While
+//Lógica de Programação
+
+var menorDe18: inteiro
+var maiorDe60: inteiro
+var idade: inteiro
+var count: inteiro
+
+Inicio
+    repita
+        escreval("Digite a idade da pessoa: ")
+        leia(idade)
+        
+        se(idade < 18) entao
+        count += menorDe18
+        senao
+        se(idade > 60) entao
+        count += maiorDe60
+    ate (idade != -99)
+    fimenquanto
+    escreva("Total de pessoas menor de 18 anos: " + menorDe18)
+    escreva("Total de pessoas maior de 60 anos: " + maiorDe60)
+Fimalgoritmo

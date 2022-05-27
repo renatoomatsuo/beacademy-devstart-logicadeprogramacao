@@ -1,0 +1,46 @@
+Exercício 09: switch/case
+//Lógica de Programação
+var lado: real
+var lado1: real
+var lado2: real
+var lado3: real
+var triangulo: real
+var base: real
+var op: caractere
+var area: real
+var perimetro: real
+
+Inicio
+    escreva("Digite (Q) para calcular a área e o perímetro do quadrado ou (T) para calcular a área e o perímetro do triângulo")
+    leia(op)
+    
+    escolha op
+        caso "Q"
+            escreva("Digite o lado do quadrado")
+            leia(lado)
+            area := lado * lado
+            perimetro := lado * 4
+            
+            escreva("Área: " + area + " m.")
+            escreva("Perímetro: " + perimetro + " m.")
+        caso "T"
+            escreva("Digite a base do triângulo")
+            leia(base)
+            escreva("Digite a altura do triângulo")
+            leia(triangulo)
+            escreva("Digite o primeiro lado do triângulo")
+            leia(lado1)
+            escreva("Digite o segundo lado do triângulo")
+            leia(lado2)
+            escreva("Digite o terceiro lado do triângulo")
+            leia(lado3)
+            
+            area := (base * altura) / 2
+            perimetro := lado1 + lado2 + lado3
+            
+            escreva("Área: " + area + " m.")
+            escreva("Perímetro: " + perimetro + " m.")
+        outrocaso
+            escreva("Opção inválida, digite (Q)uadrado ou (T)riângulo")
+    fimescolha
+Fimalgoritmo

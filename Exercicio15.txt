@@ -1,0 +1,16 @@
+Exercício 15: While
+//Lógica de Programação
+
+var j: inteiro
+var numero: inteiro
+
+Inicio
+    escreval("Digite o número para tabuada: ")
+    leia(numero)
+    j <- 1
+    enquanto j < 11 faca
+        escreva(numero," x ", j, " = ", (numero * j))
+        j <- j + 1
+    fimenquanto
+    escreval("Continuando após o enquanto")
+Fimalgoritmo
