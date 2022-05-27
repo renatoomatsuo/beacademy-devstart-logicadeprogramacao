@@ -1,53 +1,9 @@
-# beacademy-devstart-programacaodelogica
+# Be Academy - Exercícios de Lógica de Programação
 
-Resolução dos exercícios de lógica passados durante as vídeo-aulas
+Resolução dos exercícios de lógica passados durante as vídeo-aulas do Programa DevStart
 
-# Exercício 01
+## Lógica Realizada
 
-# Exercício 02
+## Links direcionaispara os exercícios
 
-# Exercício 03
-
-# Exercício 04
-
-# Exercício 05
-
-# Exercício 06
-
-# Exercício 07
-
-# Exercício 08
-
-# Exercício 09
-
-# Exercício 10
-
-# Exercício 11
-
-# Exercício 12
-
-# Exercício 13
-
-# Exercício 14
-
-# Exercício 15
-
-# Exercício 16
-
-# Exercício 17
-
-# Exercício 18
-
-# Exercício 19
-
-# Exercício 20
-
-# Exercício 21
-
-# Exercício 22
-
-# Exercício 23
-
-# Exercício 24
-
-# Exercício 25
+- [Exercicio-01](https://github.com/renatoomatsuo/beacademy-devstart-programacaodelogica/blob/main/exercicio1)
