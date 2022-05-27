@@ -1,0 +1,17 @@
+Exercício 2: Nome, Peso e Altura
+//Lógica de Programação
+var nome : caractere
+var peso : real
+var altura : real
+
+Inicio
+    escreva("Digite seu nome: ")
+    leia(nome)
+    escreva("Digite seu peso: ")
+    leia(peso)
+    escreva("Digite sua altura: ")
+    leia(altura)
+    escreva("Seja bem vindo! " + nome)
+    escreva("Seu peso é " + peso + "kg")
+    escreva("Sua altura é " + altura)
+Fimalgoritmo

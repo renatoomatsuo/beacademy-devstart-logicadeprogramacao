@@ -1,0 +1,16 @@
+Exercício 4: Operadores Lógicos
+//Lógica de Programação
+var nome : caractere
+var idade : inteiro
+
+Inicio
+   escreva ("Digite seu nome: ")
+      leia(nome)
+   escreva ("Digite sua idade: ")
+      leia(idade)
+      escreval("Idade maior que o mínimo: ",(idade>18))
+      escreval("Idade diferente que 25: ",(idade<>25))
+   escreval("Idade que diferente 25 e nome é igual a Marcos: ",((idade <> 25) && (nome = "Marcos"))
+   "Idade diferente que 25 ou nome é igual a Marcos: ", ((idade <> 25) || (nome = "Marcos"))
+   escreval ("Idade dividida por 2 é igual a ZERO: ",(idade % 2 == 0))
+Fimalgoritmo
