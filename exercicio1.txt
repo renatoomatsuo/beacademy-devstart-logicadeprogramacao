@@ -1,4 +1,4 @@
-Exercício 1: Endereço"
+Exercício 1: Endereço
 // Lógica de Programação
 
 var endereco: caractere
